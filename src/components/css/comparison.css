@@ -1,0 +1,7 @@
+.comp-container {
+    grid-area: 2/1;
+}
+
+.comparison-img {
+    min-width: 100%;
+}

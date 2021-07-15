@@ -1,0 +1,39 @@
+.slider {
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.slider-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.slider-enter {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.slider-exit {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.slider-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.slider-exit-active {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+.slider-enter-active,
+.slider-exit-active {
+    transition: opacity 500ms, transform 500ms;
+}
