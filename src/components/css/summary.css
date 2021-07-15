@@ -1,0 +1,7 @@
+.summary-cont {
+    grid-area: 1/3;
+}
+
+.avoid-wrap {
+    display: inline-block;
+}

@@ -1,0 +1,4 @@
+.chart-container {
+    grid-area: 1/2;
+    /* overflow: hidden; */
+}
